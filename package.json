@@ -1,0 +1,25 @@
+{
+  "name": "bid-api-falsa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brihanPenayo/BID-api-falsa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brihanPenayo/BID-api-falsa/issues"
+  },
+  "homepage": "https://github.com/brihanPenayo/BID-api-falsa#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "faker": "^6.6.6",
+    "nodemon": "^2.0.20"
+  }
+}
