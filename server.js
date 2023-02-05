@@ -19,16 +19,16 @@ class Empresa {
         this._id = faker.random.numeric(3);
         this.name = faker.company.name();
         this.address = [
-            { street: faker.address.street() },
-            { city: faker.address.city() },
-            { state: faker.address.state() },
-            { postalCode: faker.address.zipCode() },
-            { country: faker.address.country() }
+            {
+                street: faker.address.street(),
+                city: faker.address.city(),
+                state: faker.address.state(),
+                postalCode: faker.address.zipCode(),
+                country: faker.address.country()
+            }
         ]
     }
 }
-
-console.log(new Empresa());
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
